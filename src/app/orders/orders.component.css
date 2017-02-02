@@ -1,0 +1,168 @@
+.pgtitle {
+  background-color: #b8171c;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*padding: 7px;*/
+  /*position: absolute;*/
+  /*width: 100%;*/
+  /*z-index: 1000;*/
+  /*top: 56px;*/
+}
+
+.pgtitle button.btnright {
+  /*float: right;*/
+  margin: 0 10px 10px;
+  color: black;
+}
+
+.pgtitle button.btnleft {
+  /*float: left;*/
+  margin: 0 10px 10px;
+  color: black;
+}
+
+/*.pgtitle img {*/
+  /*height: 40px;*/
+  /*max-height: 40px;*/
+/*}*/
+
+.titletext {
+  line-height: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.ordersfor {
+  font-size: 10px;
+  line-height: 10px;
+  font-style: italic;
+  color: #ccc;
+  /*margin-top: 3px;*/
+  /*display: none;*/
+}
+.curperiod{
+  text-shadow: 1px 1px 1px #666;
+  margin-bottom:10px;
+}
+/*.slider {*/
+/*background-color: #9C3033;*/
+/*}*/
+
+/*.outerrow {*/
+/*border-bottom: 1px solid #eee;*/
+/*padding: 0 10px;*/
+/*margin: 2px 0;*/
+/*}*/
+
+/*.outerrow:first-of-type {*/
+/*border-top: none;*/
+/*}*/
+
+.row {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  width: 100%;
+  /*padding-bottom: 12px;*/
+}
+
+.row p {
+  margin: 3px 10px 0 0;
+  line-height: 15px;
+}
+
+.row p:first-of-type {
+  margin-top: 0;
+}
+
+/*.row a {*/
+/*margin: 0 0 10px 10px*/
+/*}*/
+
+.row [md-button],
+.row [md-fab],
+.row [md-icon-button],
+.row [md-mini-fab],
+.row [md-raised-button] {
+  min-width: 0;
+}
+
+img.provider {
+  width: 65px;
+  margin: 0 15px 0 0;
+}
+
+.thedate {
+  font-size: 11px;
+  padding: 0 0 5px;
+  color: #5790EB;
+}
+
+/*.buttonspacer {*/
+/*width: 55px;*/
+/*}*/
+
+/*no lunch scheduled */
+.nls {
+  width: 270px;
+  margin: 5px 0 10px;
+}
+
+.extcare {
+  color: orangered;
+}
+
+/* no lunch ordered */
+.nlo {
+  color: #ccc;
+}
+
+/* no lunch exception */
+.nle {
+  color: #4285F4
+}
+
+.addl {
+  color: green;
+}
+
+.edit {
+  color: #9C3033;
+}
+
+.past p {
+  color: #777 !important
+}
+
+.past img.provider, .past .thedate {
+  opacity: 0.7;
+}
+
+.addtext {
+  color: #CFDBC5;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.add {
+  text-align: center;
+  color: green;
+}
+
+.add.material-icons {
+  text-align: center;
+  color: green;
+}
+
+.addbtn {
+  color: green;
+  float: right;
+  margin-right: 20px;
+  opacity: 0.7;
+}
+
+.addeditbutton {
+  margin-top: -7px;
+}
